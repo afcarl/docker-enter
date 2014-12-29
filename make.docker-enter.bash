@@ -10,7 +10,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-set -e
 wget https://raw.githubusercontent.com/Pithikos/docker-enter/master/docker-enter.c
 gcc docker-enter.c -o docker-enter
 if mountpoint -q /target; then
